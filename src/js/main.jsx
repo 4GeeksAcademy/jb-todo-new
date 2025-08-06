@@ -1,18 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-
-//Bootstrap
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap"
-
-// index.css'
-import '../styles/index.css'
-
-// components
-import Home from './components/Home';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import '../styles/index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
-  </React.StrictMode>,
-)
+    <App />
+  </React.StrictMode>
+);
+
